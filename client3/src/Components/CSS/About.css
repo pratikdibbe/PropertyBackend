@@ -1,0 +1,104 @@
+/* Default styles for larger screens */
+.about-us {
+  height: 700px;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.pic {
+  height: auto;
+  width: 302px;
+}
+
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+  width: 929px;
+}
+
+.text h2 {
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.text h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #4070f4;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.hire {
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.hire:hover {
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text {
+    width: 100%;
+    max-width: none;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .text h5 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .text p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* Add a class for responsive styles in the footer */
+  .responsive {
+    text-align: left;
+  }
+
+  .about-us {
+    height: 1209px;
+   
+  }
+}

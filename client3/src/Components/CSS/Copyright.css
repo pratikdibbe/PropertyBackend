@@ -1,0 +1,13 @@
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+  }
+
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 600px) {
+    .signup-container {
+      max-width: 100%;
+    }
+  }

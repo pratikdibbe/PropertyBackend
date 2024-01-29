@@ -1,0 +1,39 @@
+.Navbar img {
+    height: 55px;
+    width: 134px;
+    margin-left: 52px;
+  }
+  
+  .Navbar {
+    padding: 0px;
+    font-family: math;
+    font-weight: bold;
+  }
+  
+  .Navbar .container-fluid {
+    box-shadow: -1px -5px 20px gray;
+    /* border: 1px solid blue; */
+    background: white;
+    z-index: 1;
+    padding:7px;
+  }
+  
+  /* .Navbar li .nav-link:hover {
+    color: #2828b3;
+  } */
+  
+  @media (max-width: 767px) {
+    .Navbar li .nav-link {
+        margin-left: 20px;
+    }
+  
+    .Navbar img {
+      height: 73px;
+      width: 152px;
+      margin-left: 125px;
+  }
+  
+  
+  }
+  
+  
